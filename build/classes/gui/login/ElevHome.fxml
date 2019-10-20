@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="412.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="22.0" layoutY="68.0" text="Capitole:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <JFXListView fx:id="listView" layoutX="22.0" layoutY="95.0" prefHeight="298.0" prefWidth="320.0" />
+      <JFXButton layoutX="435.0" layoutY="221.0" onAction="#startTest" prefHeight="46.0" prefWidth="74.0" text="Start test" />
+   </children>
+</AnchorPane>

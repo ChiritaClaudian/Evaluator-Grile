@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="525.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.login.RegisterController">
+   <children>
+      <Label layoutX="119.0" layoutY="83.0" text="Nume" />
+      <Label layoutX="112.0" layoutY="121.0" text="Prenume" />
+      <Label layoutX="121.0" layoutY="173.0" text="Email" />
+      <Label layoutX="118.0" layoutY="216.0" text="Clasa" />
+      <Label layoutX="120.0" layoutY="263.0" text="Password" />
+      <Label layoutX="118.0" layoutY="308.0" text="Password Check" />
+      <JFXTextField fx:id="numeTextField" layoutX="172.0" layoutY="79.0" />
+      <JFXTextField fx:id="prenumeTextField" layoutX="172.0" layoutY="117.0" />
+      <JFXTextField fx:id="emailTextField" layoutX="172.0" layoutY="169.0" />
+      <JFXTextField fx:id="clasaTextField" layoutX="178.0" layoutY="212.0" />
+      <JFXPasswordField fx:id="passwordPasswordField" layoutX="178.0" layoutY="259.0" />
+      <JFXPasswordField fx:id="passwordCheckPasswordField" layoutX="211.0" layoutY="304.0" />
+      <JFXButton fx:id="confirmButton" layoutX="410.0" layoutY="432.0" onAction="#registration" text="Confirm" />
+      <ImageView fitHeight="25.0" fitWidth="50.0" layoutX="354.0" layoutY="221.0" onMouseClicked="#infoVlaidClasa" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/info.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.login.CreareTestController">
+   <children>
+      <JFXTextField fx:id="intrebareTextField" layoutX="182.0" layoutY="33.0" />
+      <JFXTextField fx:id="raspunsTextField" layoutX="177.0" layoutY="175.0" />
+      <Label layoutX="128.0" layoutY="37.0" text="Intrebare" />
+      <Label layoutX="130.0" layoutY="179.0" text="Raspuns" />
+      <JFXButton layoutX="147.0" layoutY="244.0" onAction="#adaugaIntrebare" text="Adauga Intrebare" />
+      <JFXButton layoutX="339.0" layoutY="244.0" onAction="#adaugaRaspuns" text="Adauga raspuns" />
+      <Label layoutX="128.0" layoutY="80.0" text="Capitol" />
+      <Label layoutX="128.0" layoutY="117.0" text="Clasa" />
+      <JFXTextField fx:id="capitolTextField" layoutX="182.0" layoutY="76.0" />
+      <JFXTextField fx:id="clasaTextField" layoutX="177.0" layoutY="113.0" />
+      <JFXToggleButton fx:id="isCorrect" layoutX="410.0" layoutY="159.0" text="Raspuns este corect" />
+   </children>
+</AnchorPane>

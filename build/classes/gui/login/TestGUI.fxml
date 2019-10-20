@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="502.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <Label fx:id="intrebareEnunt" layoutX="82.0" layoutY="51.0" prefHeight="41.0" prefWidth="393.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="next" layoutX="542.0" layoutY="449.0" onAction="#nextTest" text="Next" />
+      <JFXRadioButton fx:id="enunt1" layoutX="71.0" layoutY="151.0">
+         <toggleGroup>
+            <ToggleGroup fx:id="raspunsuriToggleGroup" />
+         </toggleGroup></JFXRadioButton>
+      <JFXRadioButton fx:id="enunt2" layoutX="71.0" layoutY="204.0" toggleGroup="$raspunsuriToggleGroup" />
+      <JFXRadioButton fx:id="enunt3" layoutX="71.0" layoutY="270.0" toggleGroup="$raspunsuriToggleGroup" />
+      <JFXButton fx:id="prev" layoutX="475.0" layoutY="449.0" onAction="#previous" text="Previous" />
+      <JFXButton fx:id="finish" layoutX="605.0" layoutY="449.0" onAction="#afisRez" text="Finish" />
+      <Label fx:id="afisTest" layoutX="615.0" layoutY="14.0" text="Label" />
+   </children>
+</AnchorPane>

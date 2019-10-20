@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="intrebare" layoutX="73.0" layoutY="62.0" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="raspuns1" layoutX="73.0" layoutY="134.0" text="Label" />
+      <Label fx:id="raspuns2" layoutX="73.0" layoutY="192.0" text="Label" />
+      <Label fx:id="raspuns3" layoutX="73.0" layoutY="240.0" text="Label" />
+      <Label fx:id="indexIntrebare" layoutX="510.0" layoutY="28.0" text="Label" />
+      <Label fx:id="status" layoutX="111.0" layoutY="346.0" text="Label" />
+      <JFXButton fx:id="prevButton" layoutX="418.0" layoutY="351.0" onAction="#prevTest" text="Previous" />
+      <JFXButton fx:id="nextButton" layoutX="484.0" layoutY="351.0" onAction="#nextTest" text="Next" />
+   </children>
+</AnchorPane>

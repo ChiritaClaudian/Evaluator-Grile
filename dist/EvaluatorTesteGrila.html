@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'EvaluatorTesteGrila.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iRXZhbHVhdG9yVGVzdGVHcmlsYS5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5FdmFsdWF0b3JUZXN0ZUdyaWxhPC90aXRsZT4NCiAgICA8dmVuZG9yPmNoaXJpPC92ZW5kb3I+DQogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9IkV2YWx1YXRvclRlc3RlR3JpbGEuamFyIiBzaXplPSIxMjc3NjQiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxjb250cm9sc2Z4LTguNDAuMTQuamFyIiBzaXplPSIxMjE1NjQzIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZWNsaXBzZWxpbmsuamFyIiBzaXplPSI4NDc4Nzc2IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZm9udGF3ZXNvbWVmeC04LjkuamFyIiBzaXplPSI1NzEwNjgiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxqYXZheC5wZXJzaXN0ZW5jZV8yLjEuMC52MjAxMzA0MjQxMjEzLmphciIgc2l6ZT0iMTY0NjM3IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamZvZW5peC04LjAuMS5qYXIiIHNpemU9IjI0MDU3MTUiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxteXNxbC1jb25uZWN0b3ItamF2YS01LjEuMjMtYmluLmphciIgc2l6ZT0iODM0MTI2IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcb3JnLmVjbGlwc2UucGVyc2lzdGVuY2UuanBhLmpwcWxfMi41LjIudjIwMTQwMzE5LTlhZDZhYmQuamFyIiBzaXplPSIxMzY2MjQ3IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogIDwvcmVzb3VyY2VzPg0KICA8YXBwbGV0LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjb20uamF2YWZ4Lm1haW4uTm9KYXZhRlhGYWxsYmFjayIgIG5hbWU9IkV2YWx1YXRvclRlc3RlR3JpbGEiID4NCiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+DQogIDwvYXBwbGV0LWRlc2M+DQogIDxqZng6amF2YWZ4LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJndWkubG9naW4uTG9naW5HVUkiICBuYW1lPSJFdmFsdWF0b3JUZXN0ZUdyaWxhIiAvPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedgui.login() {
+        dtjava.embed(
+            {
+                id : 'gui.login',
+                url : 'EvaluatorTesteGrila.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iRXZhbHVhdG9yVGVzdGVHcmlsYS5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5FdmFsdWF0b3JUZXN0ZUdyaWxhPC90aXRsZT4NCiAgICA8dmVuZG9yPmNoaXJpPC92ZW5kb3I+DQogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9IkV2YWx1YXRvclRlc3RlR3JpbGEuamFyIiBzaXplPSIxMjc3NjQiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxjb250cm9sc2Z4LTguNDAuMTQuamFyIiBzaXplPSIxMjE1NjQzIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZWNsaXBzZWxpbmsuamFyIiBzaXplPSI4NDc4Nzc2IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZm9udGF3ZXNvbWVmeC04LjkuamFyIiBzaXplPSI1NzEwNjgiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxqYXZheC5wZXJzaXN0ZW5jZV8yLjEuMC52MjAxMzA0MjQxMjEzLmphciIgc2l6ZT0iMTY0NjM3IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamZvZW5peC04LjAuMS5qYXIiIHNpemU9IjI0MDU3MTUiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxteXNxbC1jb25uZWN0b3ItamF2YS01LjEuMjMtYmluLmphciIgc2l6ZT0iODM0MTI2IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcb3JnLmVjbGlwc2UucGVyc2lzdGVuY2UuanBhLmpwcWxfMi41LjIudjIwMTQwMzE5LTlhZDZhYmQuamFyIiBzaXplPSIxMzY2MjQ3IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogIDwvcmVzb3VyY2VzPg0KICA8YXBwbGV0LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjb20uamF2YWZ4Lm1haW4uTm9KYXZhRlhGYWxsYmFjayIgIG5hbWU9IkV2YWx1YXRvclRlc3RlR3JpbGEiID4NCiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+DQogIDwvYXBwbGV0LWRlc2M+DQogIDxqZng6amF2YWZ4LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJndWkubG9naW4uTG9naW5HVUkiICBuYW1lPSJFdmFsdWF0b3JUZXN0ZUdyaWxhIiAvPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedgui.login);
+</script>
+
+</head><body>
+<h2>Test page for <b>EvaluatorTesteGrila</b></h2>
+  <b>Webstart:</b> <a href='EvaluatorTesteGrila.jnlp' onclick="return launchApplication('EvaluatorTesteGrila.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
